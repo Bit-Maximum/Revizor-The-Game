@@ -1,3 +1,6 @@
+# Определение переменных
+define dolg = -1000
+define stelth = 0
 
 # Определение персонажей игры.
 define n = Character(None, kind=nvl)
