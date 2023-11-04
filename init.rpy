@@ -2,6 +2,18 @@
 define dolg = -1000
 define stelth = 0
 
+define initial_dolg = -1000
+define initial_stelth = 0
+
+define too_late = False
+
+define visit_poshlepkina = True
+define visit_wife = True
+
+define serve = True
+define life = True
+define family = True
+
 # Определение персонажей игры.
 define n = Character(None, kind=nvl)
 define a = Character(callback=name_callback, cb_name=None)
