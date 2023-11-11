@@ -1,18 +1,25 @@
 # Определение переменных
-define dolg = -1000
-define stelth = 0
+$ dolg = -1000
+$ stelth = 0
 
-define initial_dolg = -1000
-define initial_stelth = 0
+$ initial_dolg = -1000
+$ initial_stelth = 0
 
-define too_late = False
+$ too_late = False
 
-define visit_poshlepkina = True
-define visit_wife = True
+$ visit_poshlepkina = True
+$ visit_wife = True
 
-define serve = True
-define life = True
-define family = True
+$ serve = True
+$ life = True
+$ family = True
+
+# Определение музыки
+define audio.muschapter1 = "music/Morning.ogg"
+define audio.muschapter2 = "music/Evening.ogg"
+define audio.muschapter3 = "music/A-Very-Brady-Special.ogg"
+
+# Определение звуковых эффектов
 
 # Определение персонажей игры.
 define n = Character(None, kind=nvl)
