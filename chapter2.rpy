@@ -13,13 +13,15 @@ label chapter2_start:  # chapter2_start
     scene bg_city
     with dissolve
 
-    play music muschapter2
+    stop music fadeout 2.0
 
     window hide
     n "Весь день вы в сопровождении чиновников проездили по городу, осматривая местные учереждения."
     n "Осотрев значимые места, городичий пригласил вас к себе домой."
     n "Вы охотно приняли его приглашение."
    
+    play music muschapter2
+
     nvl hide
     nvl clear
     scene bg_house
@@ -128,6 +130,9 @@ label chapter2_start:  # chapter2_start
             khlestakov lovefulla "Отчего же не заслуживаете? {w}Вы, сударыня, заслуживаете."
 
             wife_m playfulla "Расскажите, пожалуйста, о себе."
+
+            stop music fadeout 1.5
+            play music muschapter2_speak fadein 1.5
 
     jump self_presentation
     return

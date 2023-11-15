@@ -1,5 +1,6 @@
 
 label start:
+    stop music fadeout 2.0
     jump chapter1
     return
 # Игра начинается здесь:
@@ -256,6 +257,8 @@ label after_eat:
     hide khlestakov
     with dissolve
 
+    stop music fadeout 1.5
+
     a "(У дверей вертится ручка; Хлестаков бледнеет и съеживается.)"
 
     # Явление 7
@@ -268,6 +271,8 @@ label after_eat:
     mayor "..."
 
     khlestakov spechlessa "..." 
+
+    play music muschapter1_mayor
 
     mayor happya "Желаю здравствовать!"
 

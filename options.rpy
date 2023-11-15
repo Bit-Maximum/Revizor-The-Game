@@ -85,7 +85,7 @@ define config.has_voice = True
 ## проигрываться в главном меню. Этот файл продолжит проигрываться во время
 ## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
 
-define config.main_menu_music = "music/Almost-Bliss.ogg"
+define config.main_menu_music = "music/Virtutes-Instrumenti.ogg"
 
 
 ## Переходы ####################################################################

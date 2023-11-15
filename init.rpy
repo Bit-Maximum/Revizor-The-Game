@@ -15,9 +15,19 @@ $ life = True
 $ family = True
 
 # Определение музыки
-define audio.muschapter1 = "music/Morning.ogg"
-define audio.muschapter2 = "music/Evening.ogg"
-define audio.muschapter3 = "music/A-Very-Brady-Special.ogg"
+define audio.muschapter1 = "music\Minstrel-Guild.ogg"
+define audio.muschapter1_mayor = "music\Hall-of-the-Mountain-King.ogg"
+
+define audio.muschapter2 = "music\Relent.ogg"
+define audio.muschapter2_speak = "music\Valse-Gymnopedie.ogg"
+
+define audio.muschapter3 = "music\Ranz-des-Vaches.ogg"
+define audio.muschapter3_visit = "music\String-Impromptu-Number-1.ogg"
+
+define audio.muslose = "music\Consort-for-Brass.ogg"
+define audio.muswin = "music\Funeral-March-for-Brass.ogg"
+
+
 
 # Определение звуковых эффектов
 

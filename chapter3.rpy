@@ -5,7 +5,7 @@ label chapter3:
     scene bg_house
     with dissolve
 
-    play music muschapter3
+    play music muschapter3 fadein 2.0
 
     a "Наступило утро. Вы просыпаетесь полным сил."
 
@@ -441,6 +441,8 @@ label visit_bobchin:
 
 
 label visit_servant:
+
+    play music muschapter3_visit fadein 2.0
     # Явление 8
     khlestakov "Здесь много чиновников. Мне кажется, однако ж, они меня принимают за государственного человека. Верно, я вчера им подпустил пыли."
     khlestakov "Экое дурачье! Напишу-ка я обо всем в Петербург к Тряпичкину: он пописывает статейки — пусть-ка он их общелкает хорошенько."
@@ -828,6 +830,8 @@ label visit_child:
     show wife_m normala at right
     with dissolve
 
+    play music muswin fadein 2.0
+
     wife_m happya "Ах, какой пассаж!"
 
     khlestakov surprisea "А, черт возьми!"
@@ -892,6 +896,7 @@ label visit_child:
     with dissolve
 
     if stelth < 0:
+        play music muslose fadein 2.0
         mayor ragea "Ни с места обманьщик!"
 
         n "Вы действовали слишком нагло и вас расскрыли."
