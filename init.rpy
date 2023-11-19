@@ -32,7 +32,7 @@ define audio.muswin = "music\Funeral-March-for-Brass.ogg"
 define audio.door = "sound\door.ogg"
 define audio.ambient = "sound\vesennyaya-atmosfera-goroda.ogg"
 define audio.kasino = "sound\kazino-atmosfera-kazino-v-las-vegase-las-vegas-casino-34023.ogg"
-define audio.eating = "sound\upotreblenie-pischi-stolovyimi-priborami-32711.ogg"
+define audio.eating = "sound\door.ogg"
 
 # Определение звуковых эффектов
 

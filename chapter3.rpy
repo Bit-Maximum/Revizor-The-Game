@@ -25,7 +25,7 @@ label chapter3:
         "Впустить судью?"
 
         "Прогнать":
-            image khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
+            show khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
             judge speechlessa "Приношу свои извенения."
             judge speechlessa "Хорошего вам дня."
             hide judge
@@ -33,8 +33,8 @@ label chapter3:
             jump visit_postmen
         
         "Впустить":
+            khlestakov surprisea "Прошу садиться. Так вы здесь судья?"
 
-    khlestakov surprisea "Прошу садиться. Так вы здесь судья?"
 
     judge carefulla "С восемьсот шестнадцатого был избран на трехлетие по воле дворянства и продолжал должность до сего времени."
 
@@ -96,7 +96,7 @@ label visit_postmen:
         "Впустить почтмейстера?"
 
         "Прогнать":
-            image khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
+            show khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
             postmen sada "Приношу свои извенения."
             postmen sada "Хорошего вам дня."
             hide postmen
@@ -104,8 +104,9 @@ label visit_postmen:
             jump visit_caretaker
         
         "Впустить":
+            khlestakov surprisea "А, милости просим. Я очень люблю приятное общество. Садитесь. Ведь вы здесь всегда живете?"
 
-    khlestakov surprisea "А, милости просим. Я очень люблю приятное общество. Садитесь. Ведь вы здесь всегда живете?"
+    
 
     postmen "Так точно-с."
 
@@ -169,19 +170,20 @@ label visit_caretaker:
     caretaker "Имею честь представиться: смотритель училищ, титулярный советник Хлопов."
 
     menu:
-    "Впустить смотрителя училищ?"
+        "Впустить смотрителя училищ?"
 
-    "Прогнать":
-        image khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
-        caretaker speechlessa "Приношу свои извенения."
-        caretaker speechlessa "Хорошего вам дня."
-        hide caretaker
-        with dissolve
-        jump visit_trustee
+        "Прогнать":
+            show khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
+            caretaker speechlessa "Приношу свои извенения."
+            caretaker speechlessa "Хорошего вам дня."
+            hide caretaker
+            with dissolve
+            jump visit_trustee
+        
+        "Впустить":
+            khlestakov "А, милости просим! Садитесь, садитесь. Не хотите ли сигарку?"
+
     
-    "Впустить":
-
-    khlestakov "А, милости просим! Садитесь, садитесь. Не хотите ли сигарку?"
 
     caretaker speechlessa "Вот тебе раз! Уж этого никак не предполагал. Брать или не брать?"
 
@@ -250,19 +252,20 @@ label visit_trustee:
     trustee "Имею честь представиться: попечитель богоугодных заведений, надворный советник Земляника."
 
     menu:
-    "Впустить попечителя богоугодных заведений?"
+        "Впустить попечителя богоугодных заведений?"
 
-    "Прогнать":
-        image khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
-        trustee speechlessa "Приношу свои извенения."
-        trustee speechlessa "Хорошего вам дня."
-        hide trustee
-        with dissolve   
-        jump visit_bobchin
+        "Прогнать":
+            show khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
+            trustee speechlessa "Приношу свои извенения."
+            trustee speechlessa "Хорошего вам дня."
+            hide trustee
+            with dissolve   
+            jump visit_bobchin
+        
+        "Впустить":
+            khlestakov "Здравствуйте, прошу покорно садиться."
     
-    "Впустить":
     
-    khlestakov "Здравствуйте, прошу покорно садиться."
 
     trustee happya "Имел честь сопровождать вас и принимать лично во вверенных моему смотрению богоугодных заведениях."
 
@@ -352,20 +355,21 @@ label visit_bobchin:
     dobchin "Помещик Петр Иванов сын Добчинский."
 
     menu:
-    "Впустить посетителей?"
+        "Впустить посетителей?"
 
         "Прогнать":
-            image khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
+            show khlestakov angreea "Прошу прощения, но я занят. {w} Зайдите позже."
             bobchin speechlessa "Приношу свои извенения."
             dobchin speechlessa "Хорошего вам дня."
             hide bobchin
             hide dobchin
             with dissolve
-            jump jump visit_servant
+            jump visit_servant
         
         "Впустить":
+            khlestakov surprisea "А, да я уж вас видел. Вы, кажется, тогда упали? Что, как ваш нос?"
 
-    khlestakov surprisea "А, да я уж вас видел. Вы, кажется, тогда упали? Что, как ваш нос?"
+    
 
     bobchin happya "Слава Богу! Не извольте беспокоиться: присох, теперь совсем присох."
 
@@ -546,9 +550,9 @@ label visit_servant:
             jump visit_girls
 
         "Впустить их":
+            khlestakov discustinga "Впустите их, впустите! пусть идут. Осип, скажи им: пусть идут."
 
-
-    khlestakov discustinga "Впустите их, впустите! пусть идут. Осип, скажи им: пусть идут."
+    
     khlestakov discustinga "(Принимает из окна просьбы, развертывает одну из них и читает:) \n«Его высокоблагородному светлости господину финансову от купца Абдулина...» Черт знает что: и чина такого нет!"
     
     # Явление 10
@@ -649,8 +653,8 @@ label visit_girls:
             jump visit_child
 
         "Впустить их":
+            khlestakov "Пропустить ее."
 
-    khlestakov "Пропустить ее."
 
     # Явление 11
     show poshlepkina normala at right
@@ -702,7 +706,7 @@ label girl_choise:
 
         "Выслушать жену унтер-офицера" if visit_wife:
             $ visit_wife = Flase
-            khlestakov surprisea "Говори: что тебе нужно?"\
+            khlestakov surprisea "Говори: что тебе нужно?"
 
             wife_o "На городничего, батюшка, пришла..."
 
