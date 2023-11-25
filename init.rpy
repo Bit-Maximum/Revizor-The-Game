@@ -15,24 +15,24 @@ $ life = True
 $ family = True
 
 # Определение музыки
-define audio.muschapter1 = "music\Minstrel-Guild.ogg"
-define audio.muschapter1_mayor = "music\Hall-of-the-Mountain-King.ogg"
+define audio.muschapter1 = "music/Minstrel-Guild.ogg"
+define audio.muschapter1_mayor = "music/Hall-of-the-Mountain-King.ogg"
 
-define audio.muschapter2 = "music\Relent.ogg"
-define audio.muschapter2_speak = "music\Valse-Gymnopedie.ogg"
+define audio.muschapter2 = "music/Relent.ogg"
+define audio.muschapter2_speak = "music/Valse-Gymnopedie.ogg"
 
-define audio.muschapter3 = "music\Ranz-des-Vaches.ogg"
-define audio.muschapter3_visit = "music\String-Impromptu-Number-1.ogg"
+define audio.muschapter3 = "music/Ranz-des-Vaches.ogg"
+define audio.muschapter3_visit = "music/String-Impromptu-Number-1.ogg"
 
-define audio.muslose = "music\Consort-for-Brass.ogg"
-define audio.muswin = "music\Funeral-March-for-Brass.ogg"
+define audio.muslose = "music/Consort-for-Brass.ogg"
+define audio.muswin = "music/Funeral-March-for-Brass.ogg"
 
 
 # Определение звуковых эффектов
-define audio.door = "sound\door.ogg"
-define audio.ambient = "sound\vesennyaya-atmosfera-goroda.ogg"
-define audio.kasino = "sound\kazino-atmosfera-kazino-v-las-vegase-las-vegas-casino-34023.ogg"
-define audio.eating = "sound\door.ogg"
+define audio.door = "sound/door.ogg"
+define audio.ambient = "sound/gorod.ogg"
+define audio.kasino = "sound/kazino.ogg"
+define audio.eating = "sound/eating.ogg"
 
 # Определение звуковых эффектов
 
