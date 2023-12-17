@@ -18,6 +18,7 @@ $ family = True
 define audio.muschapter1 = "music/Minstrel-Guild.ogg"
 define audio.muschapter1_mayor = "music/Hall-of-the-Mountain-King.ogg"
 
+
 define audio.muschapter2 = "music/Relent.ogg"
 define audio.muschapter2_speak = "music/Valse-Gymnopedie.ogg"
 
@@ -27,6 +28,14 @@ define audio.muschapter3_visit = "music/String-Impromptu-Number-1.ogg"
 define audio.muslose = "music/Consort-for-Brass.ogg"
 define audio.muswin = "music/Funeral-March-for-Brass.ogg"
 
+# Доп. музыка
+define audio.dlc1 = "music/Amazing-Grace-2011.ogg"
+define audio.dlc2 = "music/Dance-of-the-Sugar-Plum-Fairy.ogg"
+define audio.dlc3 = "music/Ghost-Dance.ogg"
+define audio.dlc4 = "music/Prelude-in-C-BWV-846.ogg"
+define audio.dlc5 = "music/Trio-for-Piano-Violin-and-Viola.ogg"
+define audio.dlc6 = "music/Virtutes-Vocis.ogg"
+define audio.dlc7 = "music/Canon-in-D-for-Autoharp.ogg"
 
 # Определение звуковых эффектов
 define audio.door = "sound/door.ogg"
@@ -43,7 +52,7 @@ define a = Character(callback=name_callback, cb_name=None)
 define servant = Character('Осип, слуга', color="#b36822", image='servant', callback=name_callback, cb_name="servant")
 define khlestakov = Character('Иван Хлестаков, чиновник', color="#c92222", image='khlestakov', callback=name_callback, cb_name="khlestakov")
 
-define tavern = Character('Трактирный слуга', color="#328817", image='tavern', callback=name_callback, cb_name="tavern")
+define tavern = Character('Трактирщик', color="#328817", image='tavern', callback=name_callback, cb_name="tavern")
 
 define mayor = Character('Антон Сквозник-Дмухановский, городничий', color="#dfd21f", image='mayor', callback=name_callback, cb_name="mayor")
 define judge = Character('Аммос Ляпкин-Тяпкин, судья', color="#c8ffc8", image='judge', callback=name_callback, cb_name="judge")

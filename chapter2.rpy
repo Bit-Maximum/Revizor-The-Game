@@ -85,6 +85,8 @@ label chapter2_start:  # chapter2_start
     show wife_m normala at right
     with dissolve
 
+    
+
     mayor "Осмелюсь представить мою жену."
 
     khlestakov lovefulla "Как я счастлив, сударыня, что имею в своем роде удовольствие вас видеть."
@@ -152,6 +154,9 @@ label self_presentation:
 
 
 label say_life:
+    stop music fadeout 2.0
+    play music dlc4
+
     khlestakov surea "Вы знаете..."
     khlestakov surea "Я не люблю церемонии. Но никак нельзя скрыться, никак нельзя!"
     khlestakov surea "Только выйду куда-нибудь, уж и говорят: {w}«Вон, говорят, Иван Александрович идет!»"
@@ -286,6 +291,8 @@ label say_life:
 
 
 label say_family:
+    stop music fadeout 2.0
+    play music dlc5
     khlestakov surea "Я живу в деревне... {w}Хлестаков. Да деревня, впрочем, тоже имеет свои пригорки, ручейки... "
 
     menu:
@@ -377,6 +384,8 @@ label say_serve:
 
 
 label say_end:
+    stop music fadeout 2.0
+    play music dlc6
     hide wife_m 
     show mayor normala at right3
     show trustee normala at right

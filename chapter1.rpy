@@ -62,6 +62,9 @@ label chapter1:
 
     a "Пошарив по карманам вы собираете последние оставшиеся у вас 50 рублей."
 
+    stop music fadeout 2.0
+    play music dlc1
+
     menu:
         "На что потратить последние деньги?"
 
@@ -260,6 +263,9 @@ label ending_prison:
 
 label not_prison:
 
+    stop music fadeout 2.0
+    play music dlc2
+
     mayor "Позвольте мне предложить вам переехать со мною на другую квартиру."
 
     khlestakov "Нет, не хочу! Я знаю, что значит на другую квартиру: то есть — в тюрьму. Да какое вы имеете право? Да как вы смеете?.. {w}Да вот я... {w}Я служу в Петербурге. Я, я, я..."
@@ -392,6 +398,9 @@ label not_prison:
     # Явление 8
     hide mayor
     with dissolve
+
+    stop music fadeout 2.0
+    play music dlc3
 
     a "(В комнату заходит трактирный слуга, сопровождаеммый Осипом)"
     

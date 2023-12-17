@@ -86,6 +86,9 @@ label chapter3:
 
 
 label visit_postmen:
+
+    stop music fadeout 2.0
+    play music dlc7
     # Явление 3
     show postmen normala at right2
     with dissolve
@@ -162,6 +165,8 @@ label visit_postmen:
 
 
 label visit_caretaker:
+    stop music fadeout 2.0
+    play music dlc1
     # Явление 3
     show caretaker normala at right2
     with dissolve
@@ -244,6 +249,8 @@ label visit_caretaker:
 
 
 label visit_trustee:
+    stop music fadeout 2.0
+    play music dlc2
     # Явление 7
     show trustee normala at right2
     with dissolve
@@ -343,6 +350,8 @@ label visit_trustee:
 
 
 label visit_bobchin:
+    stop music fadeout 2.0
+    play music dlc3
 
     # Явление 7
     show bobchin normala at right3
@@ -538,6 +547,8 @@ label visit_servant:
     khlestakov discustinga "(Принимает из окна просьбы, развертывает одну из них и читает:) \n«Его высокоблагородному светлости господину финансову от купца Абдулина...» Черт знает что: и чина такого нет!"
     
     # Явление 10
+    stop music fadeout 2.0
+    play music dlc5
     show khlestakov normala at left2
     show trademen normala at right2
     with dissolve
@@ -611,6 +622,8 @@ label visit_servant:
 
 
 label visit_girls:
+    stop music fadeout 2.0
+    play music dlc6
     a "С улицы слышен голос женщины: {w}«Нет, ты не смеешь не допустить меня! Я на тебя нажалуюсь ему самому. Ты не толкайся так больно!»"
 
     khlestakov surprisea "Кто там? (Подходит к окну.) {w}А, что ты, матушка?"
@@ -724,6 +737,8 @@ label girl_choise:
 
 
 label visit_child:
+    stop music fadeout 2.0
+    play music dlc7
     hide servant
     with dissolve
 
