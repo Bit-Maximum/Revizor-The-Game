@@ -1,8 +1,7 @@
 # 🎭 «The Government Inspector» — A Visual Novel Inspired by N.V. Gogol’s Comedy
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Bit-Maximum/Revizor-The-Game/blob/master/readme.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Bit-Maximum/Revizor-The-Game/blob/master/README.md)
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Bit-Maximum/Revizor-The-Game/blob/master/translation/README.ru.md)
-
 
 > *«God bless you — but I’m not to blame.» — A classic of Russian satire in the format of a visual novel.*
 

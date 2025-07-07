@@ -1,6 +1,6 @@
 # 🎭 «Ревизор» — визуальная новелла по мотивам комедии Н.В. Гоголя
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Bit-Maximum/Revizor-The-Game/blob/master/readme.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Bit-Maximum/Revizor-The-Game/blob/master/README.md)
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Bit-Maximum/Revizor-The-Game/blob/master/translation/README.ru.md)
 
 
