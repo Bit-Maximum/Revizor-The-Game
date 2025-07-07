@@ -1,8 +1,7 @@
 # 🎭 «Ревизор» — визуальная новелла по мотивам комедии Н.В. Гоголя
 
-
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Bit-Maximum/Quest-Book-TLS/blob/master/readme.md)
-[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Bit-Maximum/Quest-Book-TLS/blob/master/Translations/README.ru.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Bit-Maximum/Revizor-The-Game/blob/master/readme.md)
+[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/Bit-Maximum/Revizor-The-Game/blob/master/Translations/README.ru.md)
 
 
 > *«Да благословит вас бог, а я не виноват.» — классика русской сатиры в формате визуальной новеллы.*
@@ -32,6 +31,7 @@ git clone https://github.com/Bit-Maximum/Revizor-The-Game.git
 
 ## 📸 Галерея
 
+https://github.com/user-attachments/assets/628b9072-0575-4ed3-bc26-d10f0aa4fe8c
 
 <img src="media/1.png" width="45%"></img> <img src="media/2.png" width="45%"></img> <img src="media/3.png" width="45%"></img> <img src="media/4.png" width="45%"></img>
 
